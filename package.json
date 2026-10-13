@@ -1,0 +1,9 @@
+{
+  "name": "devops-mini-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beginner-friendly static website for an end-to-end DevOps pipeline demonstration",
+  "scripts": {
+    "test": "node --test"
+  }
+}

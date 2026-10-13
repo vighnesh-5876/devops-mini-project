@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A beginner-friendly website demonstrating an end-to-end DevOps pipeline.">
+  <title>DevOps Mini Project</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <div class="status"><span class="status-dot"></span> DevOps pipeline demo</div>
+    <section class="hero" aria-labelledby="main-title">
+      <p class="eyebrow">BUILD · TEST · SHIP · IMPROVE</p>
+      <h1 id="main-title">Hello, DevOps.</h1>
+      <p class="intro">A simple website delivered through an automated pipeline using GitHub Actions and Docker.</p>
+      <button id="welcome-button" type="button">Get started</button>
+      <p id="message" class="message" role="status" aria-live="polite">Your project is ready.</p>
+    </section>
+    <section class="steps" aria-label="Pipeline stages">
+      <article><span>01</span><h2>Commit</h2><p>Save code with Git.</p></article>
+      <article><span>02</span><h2>Test</h2><p>Run automated checks.</p></article>
+      <article><span>03</span><h2>Package</h2><p>Build a Docker image.</p></article>
+      <article><span>04</span><h2>Deploy</h2><p>Publish the website.</p></article>
+    </section>
+    <footer>DevOps Mini Project · HTML, CSS, JavaScript, GitHub Actions & Docker</footer>
+  </main>
+</body>
+</html>
