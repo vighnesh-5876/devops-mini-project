@@ -8,7 +8,7 @@ const root = path.join(__dirname, "..");
 
 test("website contains the main heading and required assets", () => {
   const html = fs.readFileSync(path.join(root, "index.html"), "utf8");
-  assert.match(html, /Hello, DevOps\./);
+  assert.match(html, /Hello, Aadarsh\./);
   assert.match(html, /style\.css/);
   assert.match(html, /script\.js/);
 });
